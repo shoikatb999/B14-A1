@@ -1,3 +1,55 @@
-body{
-    background-color: black;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar related style */
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+nav img {
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+nav div ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  align-items: center;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #575757;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-button{
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #1d4ed8;
+  border: none;
+  padding: 5px 40px;
+}
+
+header{
+    background-image: url('./assets/banner.jpg');
+    height: 130vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
