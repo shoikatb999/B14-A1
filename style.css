@@ -38,18 +38,48 @@ ul li a {
   align-items: center;
 }
 
-.top-button{
+.top-button,.top-button-header {
   border-radius: 8px;
   color: #ffffff;
   background-color: #1d4ed8;
   border: none;
-  padding: 5px 40px;
+  padding: 7px 30px;
 }
 
-header{
-    background-image: url('./assets/banner.jpg');
-    height: 130vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+
+/* header related style */
+
+header {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/banner.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: grid;
+  align-items: center;
 }
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+.top-button-header{
+    margin: 300px 600px;
+    padding: 5px auto;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-decoration: none; 
+}
+
+
+
+
+
